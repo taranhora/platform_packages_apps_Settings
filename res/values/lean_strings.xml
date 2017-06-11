@@ -60,7 +60,7 @@
  
     <!-- Lean -->
     <string name="lean_settings_title">LeanSettings</string>
-    <string name="lean_settings_summary">Additional Settings</string>
+    <string name="lean_settings_summary">Get A Lean</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
@@ -129,5 +129,9 @@
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
      <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+
+    <!-- AOSiP Version -->
+    <string name="lean_version">lean Build</string>
+    <string name="lean_version_default">9.0</string>
 
 </resources>

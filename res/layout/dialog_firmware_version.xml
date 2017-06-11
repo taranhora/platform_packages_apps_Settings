@@ -47,6 +47,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <!-- Lean version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/lean_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lean_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/lean_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/security_patch_level_label"
