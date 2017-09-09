@@ -58,6 +58,14 @@
 
     </PreferenceCategory>
 
+        <SwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_to_sleep_lockscreen_title"
+            android:summary="@string/double_tap_to_sleep_lockscreen_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <!-- work profile security section -->
     <PreferenceCategory
         android:order="20"
