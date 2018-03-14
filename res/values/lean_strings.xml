@@ -160,4 +160,13 @@
     <string name="ambient_play_history_menu_add_to_home">Add to Home Screen</string>
     <string name="ambient_play_history_dialog_remove_all_confirmation">Are you sure?</string>
 
+    <!-- Screen Stabilization -->
+    <string name="screen_stabilization_title">Screen Stabilization</string>
+    <string name="screen_stabilization_summary">Configure Screen-Stabilizer Values</string>
+    <string name="screen_stabilization_enable">Enable Screen Stabilization</string>
+    <string name="screen_stabilization_enable_summary">Leave the below values as is if you don\'t understand what they mean.</string>
+    <string name="stabilization_velocity_friction_title">Velocity friction</string>
+    <string name="stabilization_position_friction_title">Position friction</string>
+    <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
+
 </resources>
