@@ -3335,9 +3335,9 @@
 
         <activity android:name="Settings$LeanSettingsActivity"
             android:label="@string/lean_settings_title"
-            android:icon="@drawable/ic_settings_lean"
+            android:icon="@drawable/ic_homepage_lean"
             android:taskAffinity="">
-            <intent-filter android:priority="1">
+            <intent-filter android:priority="9">
                 <action android:name="lean.settings.LeanSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
