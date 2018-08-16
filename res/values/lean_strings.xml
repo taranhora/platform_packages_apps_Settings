@@ -57,5 +57,9 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
+ 
+    <!-- Lean -->
+    <string name="lean_settings_title">LeanSettings</string>
+    <string name="lean_settings_summary">Additional Settings</string>
 
 </resources>
