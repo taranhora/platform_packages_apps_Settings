@@ -140,6 +140,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.lean.settings.LeanSettings;
 
+import com.android.settings.lean.ambient.history.AmbientPlayHistory;
+
 public class SettingsGateway {
 
     /**
@@ -266,6 +268,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             LeanSettings.class.getName(),
+            AmbientPlayHistory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
