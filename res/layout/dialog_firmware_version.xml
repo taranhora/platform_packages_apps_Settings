@@ -25,20 +25,15 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
-       <LinearLayout
-    	   android:gravity="center"
-	   android:layout_width="match_parent"
-	   android:layout_height="wrap_content"
-           android:selectable="false">
-
-           <ImageView
-	       android:layout_width="match_parent"
- 	       android:layout_height="match_parent"
-	       android:src="@drawable/ic_lean_logo"
-	       android:adjustViewBounds="true"
-	       android:scaleType="centerInside" />
-
-        </LinearLayout>
+        <ImageView
+    	    android:layout_width="match_parent"
+    	    android:layout_height="75dp"
+    	    android:src="@drawable/ic_lean_logo"
+       	    android:tint="?android:attr/colorAccent"
+       	    android:gravity="center"
+    	    android:scaleType="centerInside"
+            android:selectable="false"
+            android:adjustViewBounds="true" />
 
         <TextView
             style="@style/device_info_dialog_label"
