@@ -127,13 +127,6 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 
-    <ListPreference
-        android:key="systemui_theme"
-        android:title="@string/device_theme"
-        android:entries="@array/systemui_theme_entries"
-        android:entryValues="@array/systemui_theme_values"
-        settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
@@ -168,6 +161,16 @@
         android:persistent="false"
         android:entries="@array/qs_selector_entries"
         android:entryValues="@array/qs_selector_values" />
+
+    <Preference
+         android:key="omni_theme_select_activity"
+         android:title="@string/lean_theme_select_title"
+         android:summary="@string/lean_theme_select_summary"
+         android:persistent="false" >
+         <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.omnirom.omnistyle"
+                 android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
+    </Preference>
 
 </PreferenceScreen>
 
