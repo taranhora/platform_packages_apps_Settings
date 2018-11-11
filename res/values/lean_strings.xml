@@ -125,6 +125,9 @@
     <string name="qstile_dottedcircle">Dotted Circle</string>
     <string name="qstile_attemptmountain">An attempt of a mountain</string>
     <string name="qstile_squaremedo">The Squaremedo</string>
+    <string name="qstile_oreo">Oreo Style</string>
+    <string name="qstile_oreo_circle_trim">Oreo (Circle Trim)</string>
+    <string name="qstile_oreo_squircle_trim">Oreo (Squircle Trim)</string>
 
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
