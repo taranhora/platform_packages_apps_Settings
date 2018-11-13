@@ -173,4 +173,5 @@ public class Settings extends SettingsActivity {
 
     public static class ScreenStabilizationActivity extends SettingsActivity {}
 
+    public static class AmbientPlaySettingsActivity extends SettingsActivity { /* empty */ }
 }

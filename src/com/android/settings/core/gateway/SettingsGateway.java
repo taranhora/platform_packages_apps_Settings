@@ -138,6 +138,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.android.settings.lean.ambient.AmbientPlaySettings;
 
 import com.lean.settings.LeanSettings;
 
@@ -271,7 +272,8 @@ public class SettingsGateway {
             LeanSettings.class.getName(),
             AmbientPlayHistory.class.getName(),
 	    LeanSettings.class.getName(),
-	    ScreenStabilization.class.getName()
+	    ScreenStabilization.class.getName(),
+            AmbientPlaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
